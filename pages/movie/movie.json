@@ -1,0 +1,12 @@
+{
+    "navigationBarBackgroundColor": "#42bd56",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle": "#fff",
+    "component": true,
+    "usingComponents": {
+        "movie-list": "../../components/movie-list/movie-list",
+        "movie-item": "../../components/movie-item/movie-item",
+        "movie-stars": "../../components/movie-stars/movie-stars",
+        "movie-grid": "../../components/movie-grid/movie-grid"
+    }
+}

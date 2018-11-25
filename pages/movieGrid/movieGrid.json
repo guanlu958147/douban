@@ -1,0 +1,9 @@
+{
+    "navigationBarBackgroundColor":"#42bd56",
+    "navigationBarTitleText":"正在上映",
+    "navigationBarTextStyle":"#fff",
+    "component": true,
+    "usingComponents": {
+        "movie-grid": "../../components/movie-grid/movie-grid"
+    }
+}

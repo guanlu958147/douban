@@ -1,0 +1,26 @@
+<!--pages/comment/comment.wxml-->
+<view class="bgUrl">
+    <view>
+        <image src="/images/avatar/3.png"></image>
+        <text>七月</text>
+    </view>
+</view>
+<view class="comment">
+    <view class="comment-users">
+        <view class="comment-users-avatar">
+            <image src="/images/avatar/1.png"></image>
+            <text>Sep 20 2016</text>
+        </view>
+        <text>又是肥蟹虾壮时</text>
+        <image src="/images/e894f9b2c45b43f58006e7fbe944803020170205114757.png"></image>
+        <text>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam sunt unde alias repellat quisquam iste laboriosam illum, est ipsum libero quae harum consequuntur soluta vero esse magnam? Non, cumque sapiente!
+        </text>
+        <view class="comment-users-read">
+            <image src="/images/icon/star_0.png"></image>
+            <text>52</text>
+            <image src="/images/icon/viewIcon.png"></image>
+            <text>94</text>
+        </view>
+    </view>
+</view>

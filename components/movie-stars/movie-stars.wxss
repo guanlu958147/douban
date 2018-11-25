@@ -1,0 +1,12 @@
+/* components/movie-stars/movie-stars.wxss */
+.movie-comment{
+    margin-bottom: 22rpx;
+}
+.movie-comment>image{
+    width: 16rpx;
+    height: 16rpx;
+}
+.movie-comment>text{
+    font-size: 22rpx;
+    margin-left: 10rpx;
+}

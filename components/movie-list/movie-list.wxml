@@ -1,0 +1,20 @@
+<!--components/movie-list/movie-list.wxml-->
+<view class="movie-hot">
+    <view class="movie-name">
+        <text class="movie-name-size">{{title}}</text>
+        <view bindtap="onTapMore">
+            <text class="movie-name-btn">更多</text>
+            <image class="movie-name-icon" src="/images/icon/arrow-right.png"></image>
+        </view>
+    </view>
+    <scroll-view scroll-x>
+        <view class="movieInfo">
+            <!-- <block wx:for="{{movies.rows}}" wx:key="{{item.id}}">
+                <movie-item movie="{{item}}"/>
+            </block> -->
+            <slot></slot>
+            <slot></slot>
+            <slot></slot>
+        </view>
+    </scroll-view>
+</view>

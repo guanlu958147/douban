@@ -1,0 +1,24 @@
+<!--pages/discuss/discuss.wxml-->
+<view>
+    <image class="image" src="/images/889cf46b056d48d9be848d4aa3166cfa20170206090116.jpeg"></image>
+</view>
+<view class="discuss-user">
+    <view class="discuss-avatar avatar">
+        <image src="/images/avatar/5.png"></image>
+        <view class="discuss-avatar">
+            <text>知乎</text>
+            <text>发表于</text>
+            <text>3天前</text>
+        </view>
+    </view>
+    <text>当我们谈论经济学时，我们在谈论什么？</text>
+    <view class="discuss-info">
+        <text>1.引言</text>
+        <text>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Harum vitae aspernatur eveniet corporis ipsam magnam, 
+             atque vel dignissimos asperiores enim velit doloremque assumenda autem.
+              Consequuntur architecto minus quo? Eum, 
+              exercitationem.
+        </text>
+    </view>
+</view>

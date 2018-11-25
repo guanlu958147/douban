@@ -1,0 +1,34 @@
+<!--pages/movie/movie.wxml-->
+<!-- <swiper 
+indicator-dots="true"
+indicator-color="#fff"
+indicator-active-color="red"
+autoplay="true"
+interval="1000">
+    <block wx:for="{{imgUrls}}">
+        <swiper-item>
+            <image src="{{item}}" />
+        </swiper-item>
+    </block>
+</swiper> -->
+<view class="view">
+    <view class="movie-section">
+        <image src="/images/icon/search.png"></image>
+        <input type="text" maxlength="10" placeholder="太空旅客，乘风破浪" value="{{searchValue}}" bindfocus="onFocus" bindconfirm="onSearchSubmit"/>
+        <image src="/images/icon/reast.png" wx:if="{{isObservious}}" catchtap="clearSearchValue" />
+    </view>
+    <!-- <movie-list movies="{{hotMovies}}"/> -->
+    <block wx:if="{{!isSearch}}" wx:for="{{[hotMovies,comingMovies]}}" wx:key="{{item.title}}">
+        <movie-list url="{{item.url}}" title="{{item.title}}" bind:onTapMore="onTapMore">
+
+            <block wx:for="{{item.rows}}" wx:key="{{item.id}}">
+
+                <movie-item movie="{{item}}" bind:handleMovieInfo="handleMovieInfo">
+                    <movie-stars average="{{item.average}}" stars="{{item.stars}}" />
+                </movie-item>
+
+            </block>
+        </movie-list>
+    </block>
+    <movie-grid wx:if="{{isSearch}}" rows="{{searchResultMovies.rows}}"></movie-grid>
+</view>

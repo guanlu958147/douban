@@ -1,0 +1,16 @@
+<!--pages/movieGrid/movieGrid.wxml-->
+<!-- <scroll-view 
+    style="height:1234rpx"
+    scroll-y
+    bindscrolltoupper="onScrolltoupper"
+    bindscrolltolower="onScrolltolower"
+>
+    <view class="movie-grid">
+        <block wx:for="{{rows}}" wx:key="{{item.id}}">
+            <movie-item movie="{{item}}">
+                <movie-stars average="{{item.average}}" stars="{{item.stars}}"/>
+            </movie-item>
+        </block>
+    </view>
+</scroll-view> -->
+<movie-grid rows="{{rows}}" bind:onScrolltolower="onScrolltolower"/>

@@ -1,0 +1,7 @@
+{
+  "component": true,
+    "usingComponents": {
+        "movie-item": "../movie-item/movie-item",
+        "movie-stars": "../movie-stars/movie-stars"
+    }
+}

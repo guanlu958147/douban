@@ -1,0 +1,31 @@
+/**index.wxss**/
+.hello-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #42bd56;
+}
+
+.hello-avatar {
+  width: 154rpx;
+  height: 154rpx;
+  margin: 208rpx 0 108rpx;
+  border-radius:5%;
+}
+.hello-btn{
+  width:204rpx;
+  height:88rpx;
+  border:1px solid #42bd56;
+  margin-top:204rpx;
+  border-radius:5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.hello-name{
+  font-size:40rpx;
+  font-weight:900;
+}
+.hello-btn-text{
+  font-size:28rpx;
+}

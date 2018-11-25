@@ -1,0 +1,11 @@
+/* components/movie-grid/movie-grid.wxss */
+.movie-grid>movie-item{
+    /* margin:40rpx 0 40rpx 40rpx; */
+    /* margin-right: 20rpx; */
+}
+.movie-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:30rpx
+}

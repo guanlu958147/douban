@@ -1,0 +1,9 @@
+{
+    "navigationBarBackgroundColor": "#42bd56",
+    "navigationBarTitleText": "功夫瑜伽",
+    "navigationBarTextStyle": "#fff",
+    "component": true,
+    "usingComponents": {
+        "movie-stars": "../../components/movie-stars/movie-stars"
+    }
+}

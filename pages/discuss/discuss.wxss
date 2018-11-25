@@ -1,0 +1,36 @@
+/* pages/discuss/discuss.wxss */
+.image{
+    width: 100%;
+}
+.discuss-user{
+    margin: 22rpx 22rpx 0 32rpx;
+}
+.discuss-avatar{
+    display: flex;
+    flex-direction: row;
+    color:#6b6b6e;
+}
+.discuss-avatar>text{
+    margin-left: 32rpx;
+}
+.discuss-avatar>image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.discuss-user>text{
+    font-size: 38rpx;
+    padding: 40rpx 0 68rpx;
+    display: inline-block;
+    font-weight: 900;
+    margin: 0 16rpx;
+    border-bottom: 2rpx solid #e5e5e5;
+       
+}
+.discuss-info>text{
+    display: inline-block;
+    color: #89747c;
+    font-weight: 600;
+}
+.discuss-info>text:nth-child(1){
+    margin: 74rpx 0;
+}

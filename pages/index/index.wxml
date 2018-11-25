@@ -1,0 +1,7 @@
+<view class="hello-container">
+    <image class="hello-avatar" src="../../images/avatar/3.png" />
+    <text class="hello-name">佛也要生活</text>
+    <view class="hello-btn">
+      <text class="hello-btn-text" bindtap="handleTap">进入豆瓣电影</text>
+    </view>
+</view>

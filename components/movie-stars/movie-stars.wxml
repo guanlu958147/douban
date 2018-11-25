@@ -1,0 +1,7 @@
+<!--components/movie-stars/movie-stars.wxml-->
+<view class="movie-comment">
+    <block wx:for="{{src}}" wx:key="{{item}}">
+        <image src="{{item}}"></image>
+    </block>
+    <text>{{average}}</text>
+</view>

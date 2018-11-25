@@ -1,0 +1,22 @@
+/* components/movie-item/movie-item.wxss */
+.movie-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.movie-image{
+    width: 200rpx;
+    height: 270rpx;
+    margin:24rpx 0;
+}
+
+.movie-info{
+    display: flex;
+    flex-direction: column;
+   /* margin:40rpx 0 40rpx 40rpx; */
+  margin-right: 40rpx;
+ }
+.movie-info>text{
+    color:#869183;
+    font-size: 28rpx;
+}

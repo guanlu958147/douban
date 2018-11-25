@@ -1,0 +1,69 @@
+/* pages/movie/movie.wxss */
+.view{
+    font-size: 28rpx;
+    background: #F2F2F2;
+}
+.movie-section{
+    padding: 34rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.movie-section>input{
+    width: 568rpx;
+    padding-left: 32rpx;
+}
+.movie-section>image{
+    width: 22rpx;
+    height: 22rpx;
+    margin-right: 32rpx;
+}
+/* .movie-hot{
+    padding:34rpx;
+    background: #fff;
+    margin-bottom: 30rpx;
+}
+.movie-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+}
+.movie-name-size{
+    color: #00084e;
+}
+.movie-name-btn{
+    color: #36496c;
+}
+.movie-name-icon{
+    width: 10rpx;
+    height: 28rpx;
+    margin-left: 10rpx;
+}
+.movie-image{
+    width: 200rpx;
+    height: 270rpx;
+    margin:24rpx 0;
+}
+.movie-comment{
+    margin-bottom: 22rpx;
+}
+.movie-comment>image{
+    width: 16rpx;
+    height: 16rpx;
+}
+.movie-comment>text{
+    font-size: 22rpx;
+    margin-left: 10rpx;
+}
+.movie-info{
+    display: flex;
+    flex-direction: column;
+}
+.movie-info>text{
+    color:#869183;
+}
+.movieInfo{
+    display: flex;
+    justify-content: space-between
+} */

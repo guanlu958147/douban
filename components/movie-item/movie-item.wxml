@@ -1,0 +1,8 @@
+<!--components/movie-item/movie-item.wxml-->
+<view class="movie-item">
+    <view class="movie-info" bindtap="handleMovieInfo">
+        <image class="movie-image" src="{{movie.movieImg}}"></image>
+        <text>{{movie.title}}</text>
+        <slot></slot>
+    </view>
+</view>
